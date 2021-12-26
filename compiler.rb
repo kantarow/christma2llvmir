@@ -16,7 +16,6 @@ class Compiler
   }.freeze
 
   def initialize
-    @assign_index = 4
     @result = ''
     @generator = IRGenerator.new
   end
